@@ -75,6 +75,6 @@ jobs:
     before_install:
       - "sudo apt-get install libpulse0"
     smalltalk_vm:
-      - Squeak-5.0
+      - Pharo-5.0
     smalltalk:
       - Squeak64-trunk
