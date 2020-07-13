@@ -74,8 +74,6 @@ jobs:
     arch: arm64-graviton2
     before_install:
       - "sudo apt-get install libpulse0:1:13.99.1-1ubuntu3"
-    os:
-      - linux
     smalltalk_vm:
       - Squeak-5.0
     smalltalk:
