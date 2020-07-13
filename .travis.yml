@@ -77,4 +77,4 @@ jobs:
     smalltalk_vm:
       - Squeak-5.0
     smalltalk:
-      - Squeak-5.0
+      - Squeak64-5.1
