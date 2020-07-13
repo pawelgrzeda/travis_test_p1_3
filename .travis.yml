@@ -73,7 +73,7 @@ jobs:
   - language: smalltalk
     arch: arm64-graviton2
     before_install:
-      - "ssudo apt-get install libpulse0"
+      - "sudo apt-get install libpulse0"
     smalltalk_vm:
       - Squeak-5.0
     smalltalk:
