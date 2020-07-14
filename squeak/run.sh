@@ -261,7 +261,6 @@ squeak::prepare_vm() {
   chmod +x "${SMALLTALK_CI_VM}"
 
   fold_start display_vm_version "Cog VM Information"
-#     "${SMALLTALK_CI_VM}" -version
   fold_end display_vm_version
 }
 
