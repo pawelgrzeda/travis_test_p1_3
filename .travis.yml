@@ -2,7 +2,7 @@ os: linux
 dist: focal
 arch: arm64-graviton2
 group: dev
-# virt: lxd
+virt: lxd
 
 jobs:
   include:
@@ -77,4 +77,4 @@ jobs:
     smalltalk_vm:
       - Pharo-5.3
     smalltalk:
-      - Pharo64-7.0
+      - Pharo64-stable
