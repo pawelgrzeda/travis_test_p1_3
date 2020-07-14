@@ -6,7 +6,6 @@ virt: lxd
 
 jobs:
   include:
-    -
 #   - language: ruby
 #     arch: arm64-graviton2
 #     rvm:
