@@ -1,6 +1,6 @@
 os: linux
 dist: focal
-arch: amd64
+arch: arm64-graviton2
 group: dev
 virt: lxd
 
@@ -71,8 +71,6 @@ jobs:
 #       - mono hello.exe
 
   - language: smalltalk
-  - os:
-    - linux
     smalltalk_vm:
       - Squeak-5.0
     smalltalk:
