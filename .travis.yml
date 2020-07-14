@@ -11,10 +11,10 @@ matrix:
 #     script:
 #       - ruby hello.rb
 
-#   - language: cpp
-#     compiler: clang
-#     script:
-#       - g++ hello.cpp
+  - language: cpp
+    compiler: clang
+    script:
+      - g++ hello.cpp
 
 #   - language: python
 #     script:
