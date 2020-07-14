@@ -37,10 +37,10 @@ jobs:
 #     script:
 #       - mvn clean install
 
-  - language: go
-    arch: arm64-graviton2
-    script:
-      - go run ./hello.go
+#   - language: go
+#     arch: arm64-graviton2
+#     script:
+#       - go run ./hello.go
  
 #   - language: php
 #     arch: arm64-graviton2
