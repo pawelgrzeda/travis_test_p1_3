@@ -71,6 +71,8 @@ jobs:
 #       - mono hello.exe
 
   - language: smalltalk
+  - os:
+    - linux
 #     arch: arm64-graviton2
 #     before_install:
 #       - "sudo apt-get install libpulse0"
