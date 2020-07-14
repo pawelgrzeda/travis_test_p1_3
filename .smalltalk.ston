@@ -3,7 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'MyProject',
       #directory : 'repository',
-      #platforms : [ #squeak, #pharo, #gemstone ]
+      #platforms : [ #pharo ]
     }
   ],
   #testing : {  
