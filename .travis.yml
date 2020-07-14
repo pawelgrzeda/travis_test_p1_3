@@ -1,4 +1,4 @@
-matrix:
+jobs:
   os: linux
   dist: focal
   arch: arm64-graviton2
@@ -61,7 +61,6 @@ matrix:
 #       - mono hello.exe
 
     - language: smalltalk
-      arch: arm64-graviton2
       smalltalk_vm:
         - Squeak-5.0
       smalltalk:
