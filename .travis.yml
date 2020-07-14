@@ -72,6 +72,6 @@ jobs:
 
   - language: smalltalk
     smalltalk_vm:
-      - Squeak-5.0
+      - Squeak-5.3
     smalltalk:
       - Squeak64-trunk
