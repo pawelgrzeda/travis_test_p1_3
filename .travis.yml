@@ -61,6 +61,7 @@ matrix:
 #       - mono hello.exe
 
     - language: smalltalk
+      arch: arm64-graviton2
       os:
         - linux
       smalltalk_vm:
