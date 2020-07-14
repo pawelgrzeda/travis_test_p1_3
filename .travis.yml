@@ -4,7 +4,7 @@
   group: dev
 
   include:
-  - language: smalltalk
+    language: smalltalk
     os:
       - linux
     smalltalk_vm:
