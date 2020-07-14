@@ -11,10 +11,10 @@ matrix:
 #     script:
 #       - ruby hello.rb
 
-  - language: cpp
-    compiler: clang
-    script:
-      - g++ hello.cpp
+#   - language: cpp
+#     compiler: clang
+#     script:
+#       - g++ hello.cpp
 
 #   - language: python
 #     script:
@@ -31,9 +31,9 @@ matrix:
 #     script:
 #       - mvn clean install
 
-  - language: go
-    script:
-      - go run ./hello.go
+#   - language: go
+#     script:
+#       - go run ./hello.go
  
 #   - language: php
 #     php: '7.0'
