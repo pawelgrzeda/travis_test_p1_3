@@ -1,6 +1,6 @@
   os: linux
   dist: focal
-  arch: amd64
+  arch: arm64-graviton2
   group: dev
   virt: lxd
   jobs:
