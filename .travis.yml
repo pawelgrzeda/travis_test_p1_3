@@ -10,6 +10,8 @@
           - python hello.py
 
       - language: smalltalk
+        before_install:
+          - "sudo apt-get install libpulse0"
         smalltalk_vm:
           - Squeak-5.0
         smalltalk:
