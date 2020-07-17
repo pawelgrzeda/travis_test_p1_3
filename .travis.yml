@@ -18,5 +18,3 @@
 #           - arm64-graviton2
         smalltalk:
           - Squeak64-trunk
-        script:
-          - gst hello.st
