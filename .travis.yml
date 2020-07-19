@@ -16,6 +16,8 @@
           - "sudo apt-get dist-upgrade"
           - "sudo apt-get install libpulse0"
           - "sudo apt-get install libpulse0:i386"
+          - "sudo apt-get install pulseaudio"
+          - "sudo apt-get install pulseaudio:i386"
         smalltalk_vm:
           - Squeak-5.0
         smalltalk:
