@@ -10,11 +10,14 @@
           - python hello.py
 
       - language: smalltalk
-#        before_install:
-#          - "sudo apt-get install libpulse0"
+        before_install:
+          - "sudo dpkg --add-architecture i386"
+          - "sudo apt -get update"
+          - "sudo apt-get dist-upgrade"
+          - "sudo apt-get install libpulse0:i386"
         smalltalk_vm:
           - Squeak-5.0
-#         arch:
-#           - arm64-graviton2
+         arch:
+           - arm64-graviton2
         smalltalk:
           - Squeak64-trunk
