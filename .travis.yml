@@ -1,6 +1,6 @@
   os: linux
   dist: focal
-  arch: amd64
+  arch: arm64-graviton2
   group: dev
   virt: lxd
   jobs:
@@ -10,7 +10,6 @@
           - python hello.py
 
       - language: smalltalk
-        arch: arm64-graviton2
         before_install:
           - "sudo dpkg --add-architecture i386"
           - "sudo apt-get update"
