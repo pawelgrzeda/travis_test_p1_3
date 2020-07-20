@@ -20,3 +20,5 @@
           - Squeak-5.0
         smalltalk:
           - Squeak64-trunk
+        scripts:
+          - squeak
