@@ -21,5 +21,4 @@
         smalltalk:
           - Squeak64-trunk
         script:
-          - smalltalkci helloworld.st
-          - cat results.txt
+          - smalltalkci -d  helloworld.st
