@@ -20,5 +20,3 @@
           - Squeak-5.0
         smalltalk:
           - Squeak64-trunk
-        script:
-          - smalltalkci helloworld.st
