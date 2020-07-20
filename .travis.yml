@@ -23,4 +23,4 @@
           - Squeak64-trunk
         script:
           - whereis gst
-          - gst helloworld.gst
+          - gst helloworld.st
