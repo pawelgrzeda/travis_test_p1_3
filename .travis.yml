@@ -1,7 +1,7 @@
   os: linux
   dist: focal
   arch: arm64-graviton2
-  group: dev
+  group: edge
   virt: lxd
   jobs:
     include:
