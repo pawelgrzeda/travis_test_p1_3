@@ -11,6 +11,7 @@
         before_install:
           - "sudo apt-get install libpulse0"
         group: edge
+        arch: arm64-graviton2
         virt: lxd
         smalltalk_vm:
           - Squeak-5.0
